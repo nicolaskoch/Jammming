@@ -1,7 +1,7 @@
 import { config } from '../config'
 
 const clientId = config.CLIENT_ID
-const redirectUri = 'http://localhost:3000/' // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const redirectUri = 'http://sincere-sleet.surge.sh/' // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken
 
 const Spotify = {
